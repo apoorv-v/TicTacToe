@@ -1,0 +1,71 @@
+h1{
+	margin: 50px auto;
+	max-width: 250px;
+	color:rgb(230, 230, 230);
+	margin-bottom: 40px;
+}
+
+body{
+	background-color: #232323;
+}
+
+.win{
+	color:green;
+}
+
+
+.boxes{
+	position: relative;	
+	width: 30%;
+	background-color: rgba(255, 234, 163, 0.2);
+	padding-bottom: 30%;
+	margin: 1.6%;
+	float:left;
+}
+
+
+.boxes:hover{
+	cursor: pointer;
+	background-color: rgba(255, 234, 163, 0.8);
+}
+
+.textInBox{
+	font-family: 'MuseoModerno', cursive;
+	position: absolute;
+	padding: 10%;
+	background-color: rgb(250, 238, 200);
+	margin-left:  25%;
+	margin-top: 25%;
+	font-size: 30px;
+	cursor: pointer;
+
+
+}
+
+.bgColor{
+	background-color: rgb(255, 234, 163);
+}
+
+.informationArea{
+	background-color: rgb(50, 50, 50);
+	text-align: center;
+	margin-top: 0;
+}
+h3{
+	font-family: 'MuseoModerno', cursive;
+	color: white;
+}
+.textInBox:hover{
+	cursor: pointer;
+}
+
+#playArea{
+	max-width: 400px;
+	margin: auto auto;
+}
+
+#controlBar{
+	position: fixed;
+	top: 575px;
+	left: 48%;
+}
